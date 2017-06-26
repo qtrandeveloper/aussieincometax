@@ -1,0 +1,21 @@
+#container {
+  margin: auto;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p, form {
+    text-align: center;
+    padding: 20px;
+}
+
+input[type=text] {
+  margin: 20px;
+}
+
+input[type=submit] {
+  margin: 20px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}

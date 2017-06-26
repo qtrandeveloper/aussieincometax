@@ -1,0 +1,31 @@
+  <html>
+<head>
+  <title>Australian Income Tax Calculator</title>
+  <link rel="stylesheet" text="text/css" href="tax.css"/>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<div id="container">
+  <h1>Australian Income Tax Calculator</h1>
+  <h2>Find out what you owe</h2>
+  <h3>Note that these tax rates do not include the Medicare Levy or take into account superannuation.</h3>
+<form>
+Annual gross income:
+<input type="number" id="gross" value=""> <br />
+Tax deductions:
+<input type="number" id="deduction" value=""> <br />
+<input type="button" class="btn btn-danger" value="Calculate" onclick="calculateTax()">
+</form>
+
+<h2>Results</h2>
+
+<p>
+  You will owe <span id="tax"></span> after deductions.
+</p>
+</div>
+
+  <script src="tax.js"></script>
+</body>
+</html>

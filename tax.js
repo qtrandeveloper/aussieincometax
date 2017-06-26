@@ -1,7 +1,6 @@
 function calculateTax(gross, deduction) {
 var gross = document.getElementById("gross").value;
 var deduction = document.getElementById("deduction").value;
-var diff;
 var tax;
 
   if (gross <= 18200) {

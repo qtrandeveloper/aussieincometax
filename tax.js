@@ -1,7 +1,7 @@
-function calculateTax(gross, deduction) {
-var gross = document.getElementById("gross").value;
-var deduction = document.getElementById("deduction").value;
-var tax;
+function calculateTax() {
+  let gross = document.getElementById("gross").value;
+  let deduction = document.getElementById("deduction").value;
+  let tax;
 
   if (gross <= 18200) {
     tax = 0;
@@ -22,6 +22,5 @@ var tax;
   else if (gross >= 180001) {
     tax = (54232 + (gross - 180000)*0.45) - deduction;
   }
-tax = "$" + tax.toFixed(2);
-return document.getElementById("tax").innerHTML = tax;
+ document.getElementById("tax").innerHTML = "You will owe " + "$" + tax.toFixed(2) + " " + "after deductions.";
 }

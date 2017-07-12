@@ -11,18 +11,24 @@
   <h1>Australian Income Tax Calculator</h1>
   <h2>Find out what you owe</h2>
   <h3>Note that these tax rates do not include the Medicare Levy or take into account superannuation.</h3>
-<form>
-Annual gross income:
-<input type="number" id="gross" value=""> <br />
-Tax deductions:
-<input type="number" id="deduction" value=""> <br />
-<input type="button" class="btn btn-danger" value="Calculate" onclick="calculateTax()">
-</form>
 
-<h2>Results</h2>
+  <div class="panel panel-default">
+    <form>
+    Annual gross income:
+    <input type="number" id="gross" value="0"> <br />
+    Tax deductions:
+    <input type="number" id="deduction" value="0"> <br />
+    <input type="button" class="btn btn-danger" value="Calculate" onclick="calculateTax()">
+    </form>
+  </div>
 
-<p id="tax"></p>
-<p id="net"></p>
+
+<div class="panel panel-default">
+  <h2>Results</h2>
+  <h3 id="tax"></h3>
+  <h3 id="net"></h3>
+</div>
+
 </div>
 
   <script src="tax.js"></script>

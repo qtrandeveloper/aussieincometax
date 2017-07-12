@@ -28,5 +28,5 @@ function calculateTax() {
     net = gross - tax;
   }
  document.getElementById("tax").innerHTML = "You will owe " + "$" + tax.toFixed(2) + " " + "after deductions.";
- document.getElementById("net").innerHTML = "You will have " + "$" + net.toFixed(2) + " " + "after taxes";
+ document.getElementById("net").innerHTML = "You will have " + "$" + net.toFixed(2) + " " + "after taxes.";
 }

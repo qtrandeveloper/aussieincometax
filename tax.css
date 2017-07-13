@@ -1,18 +1,17 @@
-#container {
+#wrapper {
   margin: auto;
   font-family: Tahoma, Helvetica, sans-serif;
 }
 
 h1, h2, h3, p, form{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 input[type=number] {
   margin: 5px;
+  text-align: right;
 }
-
-
 
 input[type=number]:focus {
     border: 3px solid #555;

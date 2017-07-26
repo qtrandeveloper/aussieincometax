@@ -27,6 +27,6 @@ function calculateTax() {
     tax = (54232 + (gross - 180000)*0.45) - deduction;
     net = gross - tax;
   }
- document.getElementById("tax").innerHTML = "You will owe " + "$" + tax.toFixed(2) + " " + "after deductions.";
- document.getElementById("net").innerHTML = "You will have " + "$" + net.toFixed(2) + " " + "after taxes.";
+ document.getElementById("tax").value = "$" + tax.toFixed(2);
+ document.getElementById("net").value = "$" + net.toFixed(2);
 }

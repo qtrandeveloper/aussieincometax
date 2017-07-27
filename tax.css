@@ -13,12 +13,12 @@ label {
   margin: 10px;
 }
 
-input[type=number] {
+input{
   margin: 5px;
   text-align: right;
   border: 1px solid black;
 }
 
-input[type=number]:focus {
+input:focus {
     border: 3px solid #555;
 }

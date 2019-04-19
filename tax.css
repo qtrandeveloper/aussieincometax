@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-
+  margin: auto 0;
 }
 
 .red-button {
@@ -17,7 +17,7 @@ form {
     padding: 1em;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
     grid-column: 1/3;
 }
 
